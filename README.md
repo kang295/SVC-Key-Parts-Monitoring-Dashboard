@@ -7,3 +7,12 @@ Our company manages over 30,000 active service parts for customer service operat
 -------
 To solve this, I developed a ETL process using Python on Google Cloud Platform and designed a Tableau dashboard that provides real-time visibility into key service parts inventory and issues. This enabled better decision-making and proactive risk management at the executive level.
 
+### 🔧 Tools Used
+- Python (Pandas, Numpy), SQL, Tableau
+
+### 📁 Data Description
+
+* **Raw Data**: Each PIC updates shared excel file monthly for Rep Part, category, division, monthly forecasted demand, RA History, and Supply Delay Status. This excel file also includes Rep Part Master sheet.
+* **Inventory**: Part Inventory data that includes on-hand (have), in-transit (move), and open quantity (order) for each part
+*  **Supplier**: Supplier for each parts
+*  ** 

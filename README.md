@@ -14,5 +14,5 @@ To solve this, I developed a ETL process using Python on Google Cloud Platform a
 
 * **Raw Data**: Each PIC updates shared excel file monthly for Rep Part, category, division, monthly forecasted demand, RA History, and Supply Delay Status. This excel file also includes Rep Part Master sheet.
 * **Inventory**: Part Inventory data that includes on-hand (have), in-transit (move), and open quantity (order) for each part
+*  **Back order**: Daily back order quantity lists per parts
 *  **Supplier**: Supplier for each parts
-*  ** 

@@ -27,7 +27,6 @@ To solve this, I developed an ETL process using Python and BigQuery on Google Cl
 3. Data storing in a BigQuery table to connect with Tableau
 
 ### Final Dataframe Schema for Data Visualization
-
-
+![Dataframe Schema](Dataframe%20Schema.png)
 
 # **Recommendation** 

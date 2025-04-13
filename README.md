@@ -13,7 +13,7 @@ To solve this, I developed an ETL process using Python and BigQuery on Google Cl
 ### 🔧 Tools Used
 - Python (Pandas, Numpy), SQL (BigQuery), Tableau
 
-### 📁 Data Description
+### 📁 Data Structure & Initial Checks 
 
 * `Raw Data`: Each PIC updates the shared Excel file monthly for Rep Part, category, division, forecasted demand, RA History, and Supply Delay Status. This Excel file also includes the Rep Part Master sheet.
 * `Inventory`: Part Inventory data that includes on-hand (have), in-transit (move), and open quantity (order) for each part

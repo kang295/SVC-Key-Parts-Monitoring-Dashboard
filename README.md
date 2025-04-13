@@ -10,8 +10,12 @@ To solve this, I developed an ETL process using Python and BigQuery on Google Cl
 ##### Insights and recommendations are provided on the following key areas:
 * ss
 
+-------
+
 ### 🔧 Tools Used
 - Python (Pandas, Numpy), SQL (BigQuery), Tableau
+
+-------
 
 ### 📁 Data Structure & Initial Checks 
 
@@ -21,14 +25,22 @@ To solve this, I developed an ETL process using Python and BigQuery on Google Cl
 * `Supplier`: Supplier information for each part
 * `Bulky Parts`: This data contains the bulky status per part
 
+-------
+
 ### Process
 1. Data Extracting and Cleaning (Aggregating, Joining, Dropping)
 2. Data Transforming (New Field Calculation, long-format)  - Turnover rate, Demand trend
 3. Data storing in a BigQuery table to connect with Tableau
 
+-------
+
 ### Final Dataframe Schema for Data Visualization
 ![Dataframe Schema](Dataframe%20Schema.png)
 
+-------
+
 ### Tableau Dashboard
+
+-------
 
 # **Recommendation** 

@@ -7,7 +7,7 @@ Our company manages over 30,000 active service parts for customer service operat
 -------
 To solve this, I developed an ETL process using Python on Google Cloud Platform. I designed a Tableau dashboard that provides real-time visibility into key service parts inventory and issues. This enabled better decision-making and proactive risk management at the executive level.
 
-- Insights and recommendations are provided on the following key areas:
+##### Insights and recommendations are provided on the following key areas:
 * ss
 
 ### 🔧 Tools Used

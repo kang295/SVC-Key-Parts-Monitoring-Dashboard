@@ -29,4 +29,6 @@ To solve this, I developed an ETL process using Python and BigQuery on Google Cl
 ### Final Dataframe Schema for Data Visualization
 ![Dataframe Schema](Dataframe%20Schema.png)
 
+### Tableau Dashboard
+
 # **Recommendation** 

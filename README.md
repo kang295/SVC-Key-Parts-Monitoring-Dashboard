@@ -40,7 +40,7 @@ To solve this, I developed an ETL process using Python and BigQuery on Google Cl
 -------
 
 ### Tableau Dashboard
-
+![Monitoring Dashboard](Key%20Parts%20Monitoring%20Dashboard.JPG)
 -------
 
 # **Recommendation** 

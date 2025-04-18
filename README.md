@@ -110,4 +110,7 @@ This solution enabled executives to:
 - **Minimum Stock Level Status (Safety Stock)**  
   Implement minimum stock level Status for key parts. This will help assess if PICs are utilizing safety stock effectively and ensure that critical parts are not understocked during high-demand periods.
 
+- **Part Registration Date**  
+  This provides insight into whether a low current turnover rate is due to its new part status or a recent surge in demand unlike the normal period.
+
 These additions could help executives better contextualize performance, improve inventory management, and make more informed decisions regarding procurement and replenishment strategies.

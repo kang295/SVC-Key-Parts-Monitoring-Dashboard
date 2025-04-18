@@ -98,8 +98,9 @@ This solution enabled executives to:
 
 -------
 ### Dashboard Preview
-![Monitoring Dashboard](Key%20Parts%20Monitoring%20Dashboard.JPG)
+![Monitoring Dashboard](Key%20Parts%20Monitoring%20Dashboard.JPG)  
 
+![Monitoring Dashboard](Key%20Parts%20Monitoring%20Filtered.JPG)
 -------
 ### **Recommendation** 
 

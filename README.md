@@ -2,18 +2,18 @@
 
 ### 📌 Project Background
 -------
-LG Electronics manages over 30,000 active service parts used in global customer service operations. Each product division assigns a PIC (Person In Charge) to manage their own PSI (Production, Sales, Inventory). However, upper management lacked a centralized system to monitor key inventory issues, often relying on manual communication with each PIC.
+Service Company manages over 30,000 active service parts used in global customer service operations. Each product division assigns a PIC (Person In Charge) to manage their own PSI (Production, Sales, Inventory). However, upper management lacked a centralized system to monitor key inventory issues, often relying on manual communication with each PIC.
 
 -------
 ### 🎯 Objective
 
-To improve visibility and streamline decision-making, I built an **end-to-end monitoring system** with the following architecture:
+To improve visibility and streamline decision-making, I built an **end-to-end key-parts monitoring system** with the following architecture:
 
-- **ETL Pipeline**: Automated using Python and BigQuery on GCP  
-- **Data Visualization**: Executive-friendly dashboard built in Tableau  
+- **ETL Pipeline**: Automated Merging, Filtering, and Joining data using Python and BigQuery on GCP  
+- **Data Visualization**: Executive-friendly dashboard built in Tableau to share across teams
 - **Monitoring Scope**: Focused on ~330 critical service parts  
 
-Although not real-time, the dashboard is **refreshed weekly** and **shared via email** with key stakeholders, providing **timely insights** into inventory status and supply chain risks.
+It is near real-time, the dashboard is **refreshed daily** with updated inventory and **shared via email** with key stakeholders, providing **timely insights** into inventory status and supply chain risks.
 
 This solution enabled executives to:
 
@@ -31,10 +31,13 @@ This solution enabled executives to:
   Analyze individual part demand patterns to detect abnormal behavior or anticipate restocking needs.
 
 - **Division-Level Demand Trend (Per GBU)**  
-  Aggregate demand trends by Division such as refregirator, Washing Machine, or Cooking for broader strategic insights.
+  Aggregate demand trends by Division such as refregirator, Washing Machine, AC, or Cooking for broader strategic insights.
 
 - **Turnover Rate Analysis**  
   Evaluate inventory efficiency using on-hand quantity, in-transit volume, and turnover rate metrics.
+
+- **Check Flag**
+  This check mark is based on the 'Bulky' status. For bulky parts, it's marked 'Yes' when the current T/O (based on on-hand and in-transit quantity) is below 2.0, and for non-bulky parts, below 2.5.
 
 - **Demand Pattern Classification**  
   Automatically classify demand trends as **Normal**, **Surge**, or **Drop** to detect potential risks.
@@ -71,8 +74,9 @@ This solution enabled executives to:
 ### ✅ Business Impact
 
 - Reduced **manual reporting time by over 80%** by automating the data pipeline and dashboard generation
-- Enabled **weekly monitoring** of 330+ key service parts, improving visibility and early issue sensing across divisions
+- Enabled **Daily monitoring** of 330+ key service parts, improving visibility and early inventory issue sensing across divisions
 - Helped executives **proactively address supply chain risks** by providing timely insights
+- By enabling early detection of inventory shortages—especially for costly bulky parts—this dashboard reduced avoidable air shipment expenses by up to $40K per month
 
 -------
 ### Final Dataframe Schema for Data Visualization

@@ -1,5 +1,8 @@
 # SVC-Key-Parts-Monitoring-Dashboard
 
+## ✨**Dashboard Preview**
+![Monitoring Dashboard](Key%20Parts%20Monitoring%20Dashboard.JPG)  
+
 ### 📌 Project Background
 -------
 Service Company manages over 30,000 active service parts used in global customer service operations. Each product division assigns a PIC (Person In Charge) to manage their own PSI (Production, Sales, Inventory). However, upper management lacked a centralized system to monitor key inventory issues, often relying on manual communication with each PIC.
@@ -101,10 +104,15 @@ This solution enabled executives to:
 | demand         | INTEGER | NULLABLE |
 
 -------
-### Dashboard Preview
-![Monitoring Dashboard](Key%20Parts%20Monitoring%20Dashboard.JPG)  
-
+## 💡 **Use Case Scenario: Customized Key Parts Monitoring (Washing Machine) PIC**
 ![Monitoring Dashboard](Key%20Parts%20Monitoring%20Filtered.JPG)
+
+1. Washing Machine PIC used the dashboard to review key parts inventory status, focusing on items with current low T/O (Division: WM & Check: Yes).
+2. None of the 10 flagged parts showed RA history or known supply delays, eliminating external disruption as a root cause.
+3. Six-month demand trends for these parts generally show an upward pattern, indicating that demand pressure is increasing (FCST and PO quantity check)
+4. WM demand peaked in January, which likely triggered a sudden inventory depletion.
+5. PIC plans to investigate the root causes of low turnover and will proactively monitor outstanding POs and maintain supplier communication to prevent future backorder risks.
+   
 -------
 ### **Recommendation** 
 
